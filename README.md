@@ -52,7 +52,6 @@ git clone https://github.com/chrisliu298/deslop.git ~/.claude/skills/deslop
 git clone https://github.com/chrisliu298/deslop.git ~/.codex/skills/deslop
 ```
 
-## Contributors
+## Credits
 
-- [@chrisliu298](https://github.com/chrisliu298)
-- **Claude Code** -- slop pattern taxonomy and removal heuristics
+Based on the original [deslop prompt](https://github.com/lucasb-eyer/dotfiles/blob/master/_codex/prompts/deslop.md) by [@lucasb-eyer](https://github.com/lucasb-eyer).
