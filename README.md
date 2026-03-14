@@ -1,6 +1,6 @@
 # Deslop
 
-**A skill for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [Codex](https://github.com/openai/codex) that removes AI-generated slop from code changes.**
+**A skill for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [Codex](https://github.com/openai/codex) that removes AI-generated slop from code changes.** Based on the original [deslop prompt](https://github.com/lucasb-eyer/dotfiles/blob/master/_codex/prompts/deslop.md) by [@lucasb-eyer](https://github.com/lucasb-eyer).
 
 AI agents leave fingerprints: comments that restate the code, defensive checks at internal boundaries, single-use variables, redundant type annotations, docstrings added to files that never had them. Deslop reads the diff against main, studies the existing file style, and surgically removes what doesn't belong -- while preserving every line of actual feature code.
 
